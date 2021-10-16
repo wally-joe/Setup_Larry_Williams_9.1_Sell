@@ -1,0 +1,19 @@
+var 
+MM: float;
+d: integer;
+
+begin
+  MM:= MediaExp(9,Close);
+
+  if (Close<MM) and (Open>MM) and (Close[1]>MM[1])
+  and (Close[2]>MM[2]) and (Close[3]>MM[3]) and 
+  (Close[4]>MM[4]) and (Close[5]>MM[5]) and (Close[6]>MM[6]) and (Close[7]>MM[7]) 
+  then
+  begin 
+    d:=-1;
+    paintbar(clred);
+    Alert(clPurple);
+  end;
+  plot(d);
+  d:=0;  
+end;
