@@ -7,5 +7,5 @@ Setup extremamente conhecido de Larry Williams escrito em NTSL (Nelogica Trading
 * Compilar e salva com o nome que desejar;
 * Há três formas de se usar o indicador:
   * A primeira é usá-lo como regra de coloração do candle de entrada, colorindo em vermelho em condições de  venda;
-  * A segunda forma é usálo como indicador, quando ser valor for 1 é sinal de compra e quando o valor for -1 é sinal de venda;
+  * A segunda forma é usálo como indicador, quando o valor for -1 é sinal de venda;
   * A terceira forma é usá-lo como alerta quando o setup for configurado.
